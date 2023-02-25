@@ -37,7 +37,7 @@ export function FooterContainer() {
             0xSpit
           </a>
         </p>
-        <div className="flex justify-center space-x-4">
+        <div className="flex justify-center space-x-2">
           {navigation.map((item) => (
             <a
               key={item.name}
@@ -45,7 +45,7 @@ export function FooterContainer() {
               className="text-gray-400 hover:text-gray-500"
             >
               <span className="sr-only">{item.name}</span>
-              <item.icon className="h-6 w-6" aria-hidden="true" />
+              <item.icon className="h-4 w-4" aria-hidden="true" />
             </a>
           ))}
         </div>
