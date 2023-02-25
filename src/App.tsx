@@ -1,4 +1,5 @@
 import { PricesList } from "./pages";
+import { FooterContainer } from "./pages/prices/footer";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
         </h1>
         <PricesList />
       </main>
+      <FooterContainer />
     </div>
   );
 }
