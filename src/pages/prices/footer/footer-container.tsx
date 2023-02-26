@@ -32,6 +32,7 @@ export function FooterContainer() {
           <a
             href="https://github.com/0xSpit"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:underline"
           >
             0xSpit
@@ -42,6 +43,8 @@ export function FooterContainer() {
             <a
               key={item.name}
               href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-500"
             >
               <span className="sr-only">{item.name}</span>
